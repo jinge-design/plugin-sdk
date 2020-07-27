@@ -1,0 +1,35 @@
+{
+  "name": "jinge-design",
+  "version": "0.0.1",
+  "description": "javascript sdk for development of jinge design plugin",
+  "main": "lib/index.js",
+  "types": "types",
+  "scripts": {
+    "watch": "tsc -w",
+    "build": "rm -rf ./lib ./types ./dist && tsc",
+    "eslint": "eslint .",
+    "fixeslint": "eslint --fix .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinge-design/plugin-sdk.git"
+  },
+  "keywords": [
+    "jinge-design",
+    "plugin",
+    "sdk"
+  ],
+  "author": "Yuhang Ge <abeyuhang@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinge-design/plugin-sdk/issues"
+  },
+  "homepage": "https://github.com/jinge-design/plugin-sdk#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.1.0",
+    "@typescript-eslint/parser": "^3.1.0",
+    "eslint": "^7.5.0",
+    "typescript": "^3.9.7"
+  }
+}
