@@ -6,5 +6,7 @@ node_modules
 **/*.js
 .jshintignore
 .jshintrc
+/types
+/lib
 /dist
 /asset
