@@ -1,4 +1,5 @@
 import { ApiReturnData } from './type';
+export declare const JINGE_DESIGN_ORIGIN = "*";
 declare class RPC {
     /**
      * wait

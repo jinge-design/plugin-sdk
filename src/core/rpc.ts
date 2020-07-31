@@ -10,7 +10,7 @@ import {
 
 type CallbackFn<T = unknown> = (err?: string, result?: T) => void;
 
-const JINGE_DESIGN_ORIGIN = 'https://jinge.design';
+export const JINGE_DESIGN_ORIGIN = '*';
 
 let INCREMENT = 0;
 function aid() {
@@ -122,7 +122,8 @@ class RPC {
   _p(data: unknown, transfers: Transferable[]): void {
     window.parent.postMessage(
       Object.assign({
-        plug: coreArgs.plugin
+        plug: coreArgs.plugin,
+        dia: coreArgs.dialog
       }, data),
       JINGE_DESIGN_ORIGIN,
       transfers

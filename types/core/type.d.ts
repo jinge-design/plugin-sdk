@@ -16,7 +16,7 @@ export interface CoreArgs {
     /**
      * current dialog id(if code is run in dialog)
      */
-    dialog: string;
+    dialog?: string;
 }
 export interface ApiCallData {
     act: 'call';

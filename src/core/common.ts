@@ -6,7 +6,6 @@ import { CoreArgs } from './type';
 export const coreArgs: CoreArgs = {
   plugin: null,
   theme: null,
-  locale: null,
-  dialog: null
+  locale: null
 };
 
